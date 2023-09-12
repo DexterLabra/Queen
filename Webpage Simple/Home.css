@@ -1,0 +1,176 @@
+html {
+	height: 100%;
+	overflow: hidden;
+}
+body {
+	color:#fff;
+	margin: 0;
+	padding: 0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+	height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	font-family: : cursive;
+}
+header {
+	box-sizing: border-box;
+	min-height: 100vh;
+	padding: 30vw 0 5vw;
+	position: relative;
+	transform-style: inherit;
+	width: 100vw;
+	font-size: 20px;
+
+}
+h2{
+	background-color: 
+}
+
+header h1{
+	margin-top:-100px;
+}
+h1{
+	margin: 20px;
+	background-color: gray;
+	opacity: 70%;
+	color: black;
+
+}
+h3{
+	background-color: gray;
+	opacity: 80%;
+	font-weight: bolder;
+	color: black;
+
+}
+p{
+	color: black;
+	opacity: 50%;
+}
+header, header:before {
+	background: 50% 50% / cover;
+}
+
+header::before{
+	bottom: 0;
+	content: "";
+	left:0;
+	position: absolute;
+	right: 0;
+	top:0;
+	display: block;
+	background-image: url("index1.jpg");
+	
+	background-size: cover;
+	transform-origin: center center 0;
+	transform: translateZ(-1px) scale(2);
+	z-index: -1;
+	min-height: 100vh;
+
+}
+header *{
+	font-weight: normal;
+	letter-spacing: 0.2em;
+	text-align: center;
+	margin: 0;
+	padding: 1em 0;
+
+}
+.single{
+	border-style: ridge;
+	border-width: 7px;
+	border-color: grey;
+
+	margin: 10px;
+	padding: 10px;
+	background-color: powderblue;
+	color:black;
+	position: absolute;
+}
+
+.singlehouse{
+   border: 2px solid black;
+	padding: 20px;
+	background: url(bricks.jpg);
+	cursor: not-allowed;
+	background-repeat: repeat;
+}
+.singletext{
+	font-size: 60px;
+	font-family:cursive; ;
+	color: black;
+
+}
+.multi{
+	border-style: ridge;
+	border-width: 7px;
+	border-color: grey;
+
+	margin: 10px;
+	padding: 10px;
+	background-color: powderblue;
+	color:black;
+	position: absolute;
+}
+.multihouse{
+	border: 2px solid black;
+	padding: 20px;
+	background: url(bricks.jpg);
+	background-repeat: repeat;
+	cursor: not-allowed;
+}
+.mansions{
+	border-style: ridge;
+	border-width: 7px;
+	border-color: grey;
+
+	margin: 10px;
+	padding: 10px;
+	background-color: powderblue;
+	color:black;
+	position: absolute;
+}
+.mansions1{
+	border: 2px solid black;
+	padding: 20px;
+	background: url(bricks.jpg);
+	background-repeat: repeat;
+    cursor: not-allowed;
+}
+.bungalow{
+	border-style: ridge;
+	border-width: 7px;
+	border-color: grey;
+
+	margin: 10px;
+	padding: 10px;
+	background-color: powderblue;
+	color:black;
+	position: absolute;
+}
+.bungalow1{
+	border: 2px solid black;
+	padding: 20px;
+	background: url(bricks.jpg);
+	background-repeat: repeat;
+    cursor: not-allowed;
+}
+.cabin{
+	border-style: ridge;
+	border-width: 7px;
+	border-color: grey;
+
+	margin: 10px;
+	padding: 10px;
+	background-color: powderblue;
+	color:black;
+	position: absolute;
+}
+.cabin1{
+	border: 2px solid black;
+	padding: 20px;
+	background: url(bricks.jpg);
+	background-repeat: repeat;
+    cursor: not-allowed;
+}
